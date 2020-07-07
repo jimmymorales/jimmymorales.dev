@@ -1,0 +1,72 @@
+@import '~@angular/material/theming';
+
+$dev-yellow-palette: (
+  50 : #fff2e0,
+  100 : #feddb3,
+  200 : #fdc780,
+  300 : #fcb14d,
+  400 : #fca026,
+  500 : #fb8f00,
+  600 : #fa8700,
+  700 : #fa7c00,
+  800 : #f97200,
+  900 : #f86000,
+  A100 : #ffffff,
+  A200 : #fff2eb,
+  A400 : #ffcfb8,
+  A700 : #ffbe9f,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #000000,
+    900 : #000000,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$dev-blue-palette: (
+  50 : #ecf2ff,
+  100 : #d0dffe,
+  200 : #b1cafe,
+  300 : #92b5fe,
+  400 : #7aa5fd,
+  500 : #6395fd,
+  600 : #5b8dfd,
+  700 : #5182fc,
+  800 : #4778fc,
+  900 : #3567fc,
+  A100 : #ffffff,
+  A200 : #ffffff,
+  A400 : #dce4ff,
+  A700 : #c3d1ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$dev-app-primary: mat-palette($dev-yellow-palette, 200, 50, 400);
+$dev-app-accent: mat-palette($dev-blue-palette, 400, 100, 600);
+
+$primary: mat-color($dev-app-primary)
