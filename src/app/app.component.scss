@@ -1,5 +1,13 @@
 @import '../_variables.scss';
 
-mat-toolbar {
-  color: mat-color($dev-app-primary)
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidenav {
+  height: 100%;
 }
